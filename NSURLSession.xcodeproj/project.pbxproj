@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B3845611C980E6C0007182C /* HCLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3845601C980E6C0007182C /* HCLViewController.m */; };
 		6BF26BB81C8E78C30033F3CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF26BB71C8E78C30033F3CD /* main.m */; };
 		6BF26BBB1C8E78C30033F3CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF26BBA1C8E78C30033F3CD /* AppDelegate.m */; };
 		6BF26BBE1C8E78C30033F3CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF26BBD1C8E78C30033F3CD /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B38455F1C980E6C0007182C /* HCLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCLViewController.h; sourceTree = "<group>"; };
+		6B3845601C980E6C0007182C /* HCLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCLViewController.m; sourceTree = "<group>"; };
 		6BF26BB31C8E78C20033F3CD /* NSURLSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSURLSession.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF26BB71C8E78C30033F3CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6BF26BB91C8E78C30033F3CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				6BF26BBA1C8E78C30033F3CD /* AppDelegate.m */,
 				6BF26BBC1C8E78C30033F3CD /* ViewController.h */,
 				6BF26BBD1C8E78C30033F3CD /* ViewController.m */,
+				6B38455F1C980E6C0007182C /* HCLViewController.h */,
+				6B3845601C980E6C0007182C /* HCLViewController.m */,
 				6BF26BBF1C8E78C30033F3CD /* Main.storyboard */,
 				6BF26BC21C8E78C30033F3CD /* Assets.xcassets */,
 				6BF26BC41C8E78C30033F3CD /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B3845611C980E6C0007182C /* HCLViewController.m in Sources */,
 				6BF26BBE1C8E78C30033F3CD /* ViewController.m in Sources */,
 				6BF26BBB1C8E78C30033F3CD /* AppDelegate.m in Sources */,
 				6BF26BB81C8E78C30033F3CD /* main.m in Sources */,
@@ -498,6 +504,7 @@
 				6BF26BE21C8E78C30033F3CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BF26BE31C8E78C30033F3CD /* Build configuration list for PBXNativeTarget "NSURLSessionTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				6BF26BE51C8E78C30033F3CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BF26BE61C8E78C30033F3CD /* Build configuration list for PBXNativeTarget "NSURLSessionUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				6BF26BE81C8E78C30033F3CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
